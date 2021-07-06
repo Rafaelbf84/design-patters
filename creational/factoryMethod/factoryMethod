@@ -1,0 +1,12 @@
+Definition:
+
+	 Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+	 
+Implementations:
+
+	java.lang.Object#toString() (overrideable in all subclasses)
+	java.lang.Class#newInstance()
+	java.lang.Integer#valueOf(String) (also on Boolean, Byte, Character, Short, Long, Float and Double)
+	java.lang.Class#forName()
+	java.lang.reflect.Array#newInstance()
+	java.lang.reflect.Constructor#newInstance()

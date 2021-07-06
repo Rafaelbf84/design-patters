@@ -1,0 +1,7 @@
+Definition:
+
+	 Specify the kind of objects to create using a prototypical instance, and create new objects by copying this prototype. 
+	 
+Implementation:
+
+	java.lang.Object#clone() (the class has to implement java.lang.Cloneable)
