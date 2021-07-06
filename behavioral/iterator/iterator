@@ -1,0 +1,8 @@
+Definition:
+
+	 Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+	 
+Implementations:
+
+	All implementations of java.util.Iterator (thus among others also java.util.Scanner!).
+	All implementations of java.util.Enumeration

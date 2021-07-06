@@ -1,0 +1,10 @@
+Definition:
+
+	 Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
+	 
+Implementations:
+
+	java.util.Pattern
+	java.text.Normalizer
+	All subclasses of java.text.Format
+	All subclasses of javax.el.ELResolver

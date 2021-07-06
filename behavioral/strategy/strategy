@@ -1,0 +1,10 @@
+Definition:
+
+	Define a family of algorithms, encapsulate each one, and make them interchangeable. 
+	Strategy lets the algorithm vary independently from clients that use it.
+
+Implementations:
+
+	java.util.Comparator#compare(), executed by among others Collections#sort().
+	javax.servlet.http.HttpServlet, the service() and all doXXX() methods take HttpServletRequest and HttpServletResponse and the implementor has to process them (and not to get hold of them as instance variables!).
+	javax.servlet.Filter#doFilter()

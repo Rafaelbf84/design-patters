@@ -1,0 +1,10 @@
+Definition:
+
+	Represent an operation to be performed on the elements of an object structure.
+	Visitor lets you define a new operation without changing the classes of the elements on which it operates.
+
+Implementations:
+
+	javax.lang.model.element.AnnotationValue and AnnotationValueVisitor
+	javax.lang.model.element.Element and ElementVisitor
+	javax.lang.model.type.TypeMirror and TypeVisitor

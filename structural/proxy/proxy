@@ -1,0 +1,8 @@
+definition
+
+	 Provide a surrogate or placeholder for another object to control access to it.
+
+Implementations:
+
+	java.lang.reflect.Proxy
+	java.rmi.*, the whole API actually.

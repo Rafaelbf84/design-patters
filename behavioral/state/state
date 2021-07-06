@@ -1,0 +1,7 @@
+Definition:
+
+	 Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+
+Implementations:
+
+	javax.faces.lifecycle.LifeCycle#execute() (controlled by FacesServlet, the behaviour is dependent on current phase (state) of JSF lifecycle)
